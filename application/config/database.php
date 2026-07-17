@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
+	'hostname' => '',
+	'username' => '',
 	'password' => '',
-	'database' => 'pjbl',
-	'dbdriver' => 'mysqli',
+	'database' => APPPATH.'database/pjbl.db',
+	'dbdriver' => 'sqlite3',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
