@@ -22,10 +22,10 @@
                                     <div class="card-body">
                                         <?php echo form_open('login/cek') ?>
                                       		<span class="text-danger"><?php echo $this->session->flashdata('err'); ?></span>
-                                          <div class="form-group"><label class="mb-1" for="un">Username</label><input class="form-control py-4" id="un" type="text" name="username" placeholder="Your username..." autofocus required/></div>
+                                          <div class="form-group"><label class="mb-1" for="un">Username</label><input class="form-control py-4" id="un" type="text" name="username" placeholder="Your username..." value="teacher" autofocus required/></div>
                                           <div class="form-group">
                                             <label class="mb-1" for="pwd">Password</label><small class="float-right" title="Contact our administrator (rijalmy010600@gmail.com) or your teacher.">Forget password?</small>
-                                            <input class="form-control py-4" id="pwd" type="password" name="password" placeholder="Your security password..." required/>
+                                            <input class="form-control py-4" id="pwd" type="password" name="password" placeholder="Your security password..." value="t34ch3r" required/>
                                           </div>
                                           <div class="form-group d-flex align-items-center mt-4 mb-0" style="float:right">
                                             <button type="submit" class="btn btn-primary"><span class="fas fa-sign-in-alt"></span> Login</button>&nbsp;
